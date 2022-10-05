@@ -1,0 +1,155 @@
+/* untuk tanda (*) untuk semua full text */
+* {
+    font-family: Mulish, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    /* background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(./foto/82d59c69-3324-4f53-9752-e711ff61f7b2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  /* .wrap-background {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        animation: slide 1s infinite;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      } */
+  
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    /* align-items: center; */
+  }
+  
+  .nav-nature {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -122px;
+    margin-right: 840px;
+  }
+  
+  /* BAGIAN TENGAH */
+  
+  .page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .title-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lucida Sans Unicode";
+    font-weight: 800;
+    font-size: 40px;
+    color: #83b4c9;
+  }
+  
+  .title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lucida Sans Unicode";
+    font-weight: 12px;
+    font-size: 18px;
+    /* background-color: black; */
+    padding: 18px 16px;
+  }
+  
+  .sign-in {
+    border: 0px rgb(230, 234, 231);
+    background-color: rgb(195, 245, 207);
+    padding-top: 20px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #83b4c9;
+  }
+  
+  .sign-in:hover {
+    cursor: pointer;
+    background-color: #83b4c9;
+    color: #83b4c9;
+  }
+  
+  .register {
+    color: #83b4c9;
+    font-weight: 800;
+  }
+  
+  .register:hover {
+    cursor: pointer;
+    background-color: none;
+    color: rgb(195, 245, 207);
+  }
+  
+  .card {
+    justify-content: center;
+    margin: -10px 200px 200px 405px;
+    height: 400px;
+    width: 400px;
+    border: 0px;
+    background-color: rgb(195, 245, 207);
+    border-radius: 16px;
+    align-items: center;
+  }
+  
+  .card h5 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(195, 245, 207);
+    text-align: center;
+  }
+  
+  /* .beautiful-place {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Lucida Sans Unicode";
+      font-weight: 700;
+      font-size: 16px;
+      color: #83b4c9;
+      padding: 18px 16px;
+    } */
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px 0px;
+  }
+  
+  .pulau-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+  }
+  .pulau {
+    display: flex;
+    flex-direction: column;
+    color: rgb(195, 245, 207);
+  }
+  
