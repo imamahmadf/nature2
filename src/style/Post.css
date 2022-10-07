@@ -1,0 +1,27 @@
+.post-photo {
+    
+    padding: 20px;
+}
+
+.post-photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.username-post {
+    color: black;
+}
+
+.photo-profile-comment {
+height: 40px;
+width: 40px;
+margin-bottom: 15px;
+padding: 0px;
+overflow: hidden;
+}
+
+.photo-profile-comment img {
+height: 100%;
+width: 100%;
+}
+

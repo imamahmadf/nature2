@@ -1,0 +1,31 @@
+.foto-sampul {
+    background-image: url(../img/background.jpg);
+    height: 250px;
+    background-position: center;
+   
+}
+
+.profile-menu {
+    background-color: white;
+  
+    height: 50px;
+}
+
+.photo-profile {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 15px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.photo-profile img {
+    height: 100%;
+    width: 100%;
+}
+
+.username {
+    color: white;
+}
+
+

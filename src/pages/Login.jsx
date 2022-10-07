@@ -24,7 +24,7 @@ class Login extends React.Component {
     //   }
 
     return (
-      <div className="pt-5">
+      <div className="pt-5 background-login">
         {/* <nav className="nav-container">
           <div className="nav-nature"> */}
         {/* <img

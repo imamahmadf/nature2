@@ -7,9 +7,9 @@ import { connect } from "react-redux";
 class NavbarNature extends React.Component {
   render() {
     return (
-      <div>
-        <Navbar className="my-2" color="dark" dark>
-          <NavbarBrand href="/">
+      <div className="p-0 m-0">
+        <Navbar className="" color="dark" dark>
+          <NavbarBrand>
             <img
               alt="logo"
               src={Logo}

@@ -7,11 +7,12 @@
     scroll-behavior: smooth;
   }
   
-  body {
-    margin: 0;
+  .background-login {
+    margin: 0pxs;
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
-    background-size: 190vh 155vh;
+    padding: 0px;
+   
   }
   
   /* .wrap-background {
