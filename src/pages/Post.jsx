@@ -4,6 +4,22 @@ import "../style/Post.css";
 import { Button } from "reactstrap";
 
 class Post extends React.Component {
+  state = {
+    comment: "",
+  };
+
+  addKomen = () => {
+    // untuk menambahkan komentar ke database
+  };
+
+  inputHandler = (event) => {
+    // untuk menangkap value yang ditulis user dan di isi ke state comment
+    const value = event.target.value;
+    const name = event.target.name;
+
+    this.setState({ [name]: value });
+  };
+
   render() {
     return (
       <div className="container-fluid p-0">
@@ -55,10 +71,12 @@ class Post extends React.Component {
                     class="form-control"
                     placeholder="Leave a comment here"
                     style={{ height: "100px" }}
+                    onChange={this.inputHandler}
+                    name="comment"
                   ></textarea>
                   <label for="floatingTextarea2">Comments</label>
                 </div>
-                <Button color="primary" size="sm">
+                <Button onClick={this.addKomen} color="primary" size="sm">
                   comment
                 </Button>
               </div>
